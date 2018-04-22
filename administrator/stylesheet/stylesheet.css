@@ -1,0 +1,336 @@
+body  {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background: #f0f0f0;
+	color: #696969;
+}
+#slider{
+	border:1px solid red;
+	height:200px;
+	margin:20px;
+}
+.articles{
+	border:1px solid green;
+	margin:10px;
+	height:200px;
+}
+#footer {
+	text-align:center;
+	color:#e8e8e8;
+	height:60px;
+	background:url(../images/footerBackground.jpg) repeat-x left top;
+}
+#footer p {
+	padding:20px 0 0 0;
+	font-family:Verdana;
+	
+}
+
+#navcontainer {
+	padding:2px 0 10px 0;
+}
+.mainLogo {	
+	float:left;
+	margin-top:-40px;
+}
+.logo {
+	color:#123456;
+	font-size:48px;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding:0px 0 0 10px;
+}
+.logo span {
+	color:#f6b247;	
+}
+
+#navcontainer ul {
+	padding-left: 0;
+	margin-left: 0;
+	background: url(../images/menuBackground.jpg) repeat-x left top;
+	color: White;
+	float: left;
+	width: 100%;
+	height:60px;
+}
+#navcontainer ul li { 
+	display: inline;
+	color:#ffffff;
+}
+#navcontainer ul li a {
+	padding:18px 29px 0 30px;
+	background: url(../images/menuBackground.jpg) repeat-x left top;
+	color: #ffffff;
+	text-decoration: none;
+	float: left;
+	font-size:24px;
+	font-family:trebuchet ms;
+	line-height:25px;
+	outline: none;
+}
+#navcontainer ul li a:hover {
+	background: url(../images/menuActive.jpg) repeat-x left top;
+	color: #fff;
+	height:60px;
+	outline: none;
+}
+#navcontainer .active a {
+	background: url(../images/menuActive.jpg) repeat-x left top;
+	color: #fff;
+	height:60px;
+	outline: none;
+}
+
+/**** Navigation ****
+
+#nav {
+	background: -webkit-gradient(linear, left top, left bottom, from(#9c001f), to(#ff0033));
+	background: -moz-linear-gradient(top, #9c001f, #ff0033);
+	margin:10px -15px;
+	/*background:url(../images/nav.jpg)repeat-x left;*
+	height:50px;
+	
+}
+
+#nav ul li{
+	margin-top:10px;
+	margin-bottom:10px;
+	list-style: none;
+	float:left;
+	margin-left:10px;
+	background-color:#9c001f;
+	padding:4px 10px;
+	border-radius:4px;
+	box-shadow: inset 2px 2px 4px rgba(0,0,0,0.2),inset -2px -2px 4px rgba(0,0,0,0.2);
+	border:1px inset #151414;
+	
+}
+#nav ul li a{
+	text-decoration:none;
+	color:#fff;
+	font-family: trebuchet ms;
+}
+#nav ul li.active{
+	box-shadow: inset 3px 2px 7px rgba(255,255,255,0.4),inset -3px -2px 7px rgba(255,255,255,0.4);
+}
+*/
+.clearer{
+	clear:both;
+}
+/**** Slider ***/
+ .jssort11{
+      font-family: Arial, Helvetica, sans-serif;
+ }
+.jssort11 .i, .jssort11 .pav:hover .i{
+        position: absolute;
+        top:3px;
+        left:3px;
+        WIDTH: 60px;
+        HEIGHT: 30px;
+        border: white 1px dashed;
+ }
+ * html .jssort11 .i{
+         WIDTH : 62px;
+         HEIGHT /**/: 32px;
+ }
+.jssort11 .pav .i{
+         border: white 1px solid;
+   }
+.jssort11 .t, .jssort11 .pav:hover .t{
+        position: absolute;
+        top: 3px;
+        left: 68px;
+        width:129px;
+        height: 32px;
+        line-height:32px;
+        text-align: center;
+        color:#fc9835;
+        font-size:13px;
+        font-weight:700;
+   }
+.jssort11 .pav .t, .jssort11 .phv .t, .jssort11 .p:hover .t{
+       color:#fff;
+  }
+.jssort11 .c, .jssort11 .pav:hover .c{
+       position: absolute;
+       top: 38px;
+       left: 3px;
+       width:197px;
+       height: 31px;
+       line-height:31px;
+       color:#fff;
+       font-size:11px;
+       font-weight:400;
+       overflow: hidden;
+  }
+.jssort11 .pav .c, .jssort11 .phv .c, .jssort11 .p:hover .c{
+       color:#fc9835;
+}
+.jssort11 .t, .jssort11 .c{
+       transition: color 2s;
+       -moz-transition: color 2s;
+       -webkit-transition: color 2s;
+       -o-transition: color 2s;
+   }
+.jssort11 .p:hover .t, .jssort11 .phv .t, .jssort11 .pav:hover .t, .jssort11 .p:hover .c, .jssort11 .phv .c, .jssort11 .pav:hover .c{
+        transition: none;
+       -moz-transition: none;
+       -webkit-transition: none;
+       -o-transition: none;
+  }
+.jssort11 .p{
+        background:#181818;
+ }
+.jssort11 .pav, .jssort11 .pdn{
+        background:#462300;
+}
+.jssort11 .p:hover, .jssort11 .phv, .jssort11 .pav:hover{
+        background:#333;
+}
+                
+p.news{
+	font-family: trebuchet ms;
+	color:#002A80;
+	text-decoration: underline;
+}
+
+#side_menu{  
+	    list-style: none;
+	    font-family: 'HelveticaNeue', Arial, Helvetica, sans-serif;
+	    font-size:14px}
+	/*header line style and border*/
+#side_menu li.header{
+	    color: #666;
+	    padding:4px 12px;
+	    border: 1px solid #bbb;
+	    }
+
+#side_menu li {
+	    border: 1px solid #bbb;
+	    border-top:0;
+	    margin: 0;
+	    background:#F0F0F0;
+	    }
+
+
+
+	#side_menu li a {
+	    text-decoration:none;
+	    color:#666;
+	    display:block;
+	    padding:8px 12px;
+	    outline: none;
+	    }
+
+
+
+	#side_menu li a:hover {
+	    background: #F8F8F8;
+	    text-decoration:none;
+	    outline: none;
+	    }
+   
+
+	#side_menu li ul {
+	    list-style: none;
+	    background: #d3d3d3;
+	    display: none;
+	    margin:0;
+	    padding:0;
+	    }
+
+	 
+
+	#side_menu li ul li {
+	    margin:0;
+	    border:0;
+	    border-bottom:1px solid #bbb;
+	    }
+   
+
+	#side_menu li ul li:last-child {
+	    border-bottom:0;
+	    }   
+
+	#side_menu li ul li a {
+	    padding: 5px 10px;
+	    display: block;
+	    padding-left: 33px;
+	    background: #d3d3d3; 
+	    outline: none;
+	    
+	    }
+
+	
+
+#side_menu li ul li a:hover {
+	text-decoration: none;
+	background: #d9d9d9;
+	outline: none; }
+
+	
+
+	#side_menu .collapsible > a {
+	    background: url(../images/icon-down.png) no-repeat right center; 
+	    }
+	
+	#side_menu .collapsible > a:hover { 
+		background: #F8F8F8 url(../images/icon-down.png) no-repeat right center !important; 
+	}
+	
+/***** Login *********/
+#login{
+	float:right;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-top:20px;
+}
+#login a{
+	text-decoration:underline;
+}
+
+#reg_forgot {
+	margin-left:80px;
+}
+#login input{
+	border-radius:5px;
+	width:150px;
+	border:1px solid #76aef3;
+	padding:6px;
+}
+
+/***********8 Additional styles ***********/
+.leftSidebar {
+	background-color:#123456;
+}
+
+.titleBlock {
+	background:url(../images/nav.jpg) repeat-x left top;
+	height:30px;
+	font-size:14px;
+	color:#ffffff;
+	font-weight:bold;
+	padding:7px 20px 0 20px;
+}
+
+.blockList {
+	background-color:#123456;
+	padding:10px 20px;
+}
+.blockList a {
+	color: 	#FFA500;
+	text-decoration:none;
+	font-family:Times New Roman;
+}
+.blockList li {
+	list-style:none;
+	background:url(../images/p.png) no-repeat left 3px;
+	padding-left:13px;
+	margin:5px 0;
+	
+}
+
+
+
+
+
+
